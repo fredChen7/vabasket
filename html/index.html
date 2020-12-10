@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		    <meta charset="utf-8">
+		    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>订单系统</title>
+		
+		<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css"/>
+		<script src="../js/jq.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../bootstrap/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		
+	</head>
+	<body>
+		<!-- 导航 -->
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="#">Brand</a>
+		    </div>
+		
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav">
+		        <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+		        <li><a href="#">Link</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+		        
+		        </li>
+		      </ul>
+		     
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="#">欢迎您</a></li>
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin <span class="caret"></span></a>
+		          <ul class="dropdown-menu">
+		            <li><a href="#">Action</a></li>
+		            <li><a href="#">Another action</a></li>
+		            <li><a href="#">Something else here</a></li>
+		            <li role="separator" class="divider"></li>
+		            <li><a href="#">Separated link</a></li>
+		          </ul>
+		        </li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+		<!-- 左侧列表组 -->
+		<div class="container-fluid">
+		  <div class="row">
+			  <div class="col-sm-2">
+			   <div class="list-group">
+			     <a href="#" class="list-group-item active">
+			         今日订单
+			     </a>
+			     <a href="#" class="list-group-item">
+					 订单查询
+					 </a>
+			     <a href="#" class="list-group-item">
+					 每月定价
+					 </a>
+			     <a href="#" class="list-group-item">
+					 客户管理
+					 </a>
+			     <a href="#" class="list-group-item">
+					 系统管理
+					 </a>
+		       </div>
+			  </div>
+			  <!-- 右边今日订单导航 -->
+			  <div class="col-sm-10">
+			<div>
+			
+			  <!-- Nav tabs -->
+			  <ul class="nav nav-tabs" role="tablist">
+			    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">未处理</a></li>
+			    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">已处理</a></li>
+			  </ul>
+			
+			  <!-- Tab panes -->
+			  <div class="tab-content">
+			    <div role="tabpanel" class="tab-pane active" id="home">
+					<table class="table table-bordered">
+					  <tr>
+					    <th>订单编号</th>
+						<th>客户名称</th>
+						<th>称重</th>
+						<th>类别</th>
+						<th>总价</th>
+						<th>下单人</th>
+						<th>下单时间</th>
+						<th>操作</th>
+						
+					 </tr>
+						<tr>
+							<td>10021456</td>
+							<td>景婆婆</td>
+							<td>50</td>
+							<td>20</td>
+							<td>陈俊材</td>
+							<td>2020.11.24</td>
+							<td></td>
+							<td>
+								<a>详细</a>
+								<a>打印</a>
+							</td>
+						</tr>
+							<tr>
+								<td>10021456</td>
+								<td>景婆婆</td>
+								<td>50</td>
+								<td>20</td>
+								<td>陈俊材</td>
+								<td>2020.11.24</td>
+								<td></td>
+								<td></td>
+							</tr>	
+					
+					
+					</table>
+				
+				</div>
+			    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+			  </div>
+			
+			</div>
+				
+				
+				
+			  </div>
+			  
+		  
+		  </div>
+		</div>
+	</body>
+</html>
